@@ -10,7 +10,7 @@ Transformer-based models, which have recently shown strength in the field of nat
 ### Results on COCO val2017 on COCO val2017 dataset
 
 | Model  | Backbone | #Params(M) | FLOPs(G) | Input Resolution | Feature Resolution | AP | AR |
-| :----------------- | :-----------: | :------: | :-----------: | :------: |:------: | :------: | :------: | :------: | :------: |
+| :----------------- | :-----------: | :------: | :-----------: | :------: |:------: | :------: | :------: | 
 | VGG | VGG16 | 19M | 16G | 256 x 192 | 1/4 | 69.8 | 75.4 | 
 | SimpleBaseline | ResNet-50 | 34M | 9G | 256 x 192 | 1/4 | 70.4 | 76.3 | 
 | SimpleBaseline | ResNet-152 | 69M | 16G | 256 x 192 | 1/4 | 72.0 | 77.8 | 
