@@ -11,9 +11,16 @@ Transformer-based models, which have recently shown strength in the field of nat
 
 | Model  | Backbone | #Params(M) | FLOPs(G) | Input Resolution | Feature Resolution | AP | AR |
 | :----------------- | :-----------: | :------: | :-----------: | :------: |:------: | :------: | :------: | :------: | :------: |
-| VGG  | VGG16 | 19M | 16G | 0.628 | 256 x 192 | 1/4 | 69.8 | 75.4 | 
-| [Wider Naive Lite-HRNet-18](/configs/top_down/naive_litehrnet/coco/wider_naive_litehrnet_18_coco_256x192.py)  | 256x192 | 1.3M | 311.1M | 0.660 | 0.871 | 0.737 | 0.721 | 0.913 | [GoogleDrive](https://drive.google.com/file/d/1Amb0yE677zV18KaH6gruUQnHUiwBx_-H/view?usp=sharing) or [OneDrive](https://1drv.ms/u/s!AvreNzlRJaHngQLsLGlp3r16ALfZ?e=XgMYMd) |
-| [Lite-HRNet-18](/configs/top_down/lite_hrnet/coco/litehrnet_18_coco_256x192.py)  | 256x192 | 1.1M | 205.2M |0.648 | 0.867 | 0.730 | 0.712 | 0.911 | [GoogleDrive](https://drive.google.com/file/d/1ZewlvpncTvahbqcCFb-95C3NHet30mk5/view?usp=sharing) or [OneDrive](https://1drv.ms/u/s!AvreNzlRJaHngQE0r-EVnMNPObk7?e=ojJosi) |
-| [Lite-HRNet-18](/configs/top_down/lite_hrnet/coco/litehrnet_18_coco_384x288.py)  | 384x288 | 1.1M | 461.6M | 0.676 | 0.878 | 0.750 | 0.737 | 0.921 | [GoogleDrive](https://drive.google.com/file/d/1E3S18YbUfBm7YtxYOV7I9FmrntnlFKCp/view?usp=sharing) or [OneDrive](https://1drv.ms/u/s!AvreNzlRJaHnfZE0w9s_h9oK98c?e=xPiAxS) |
-| [Lite-HRNet-30](/configs/top_down/lite_hrnet/coco/litehrnet_30_coco_256x192.py)  | 256x192 | 1.8M | 319.2M | 0.672 | 0.880 | 0.750 | 0.733 | 0.922 | [GoogleDrive](https://drive.google.com/file/d/1KLjNInzFfmZWSbEQwx-zbyaBiLB7SnEj/view?usp=sharing) or [OneDrive](https://1drv.ms/u/s!AvreNzlRJaHnexxp5RCK15meEWw?e=g4ObHb) |
-| [Lite-HRNet-30](/configs/top_down/lite_hrnet/coco/litehrnet_30_coco_384x288.py)  | 384x288 | 1.8M | 717.8M | 0.704 | 0.887 | 0.777 | 0.762 | 0.928 | [GoogleDrive](https://drive.google.com/file/d/1BcHnLka4FWiXRmPnJgJKmsSuXXqN4dgn/view?usp=sharing) or [OneDrive](https://1drv.ms/u/s!AvreNzlRJaHnfOng41YajWZg478?e=wVKeIS) |
+| VGG | VGG16 | 19M | 16G | 256 x 192 | 1/4 | 69.8 | 75.4 | 
+| SimpleBaseline | ResNet-50 | 34M | 9G | 256 x 192 | 1/4 | 70.4 | 76.3 | 
+| SimpleBaseline | ResNet-152 | 69M | 16G | 256 x 192 | 1/4 | 72.0 | 77.8 | 
+| HRNet | HRNet-W32 | 29M | 8G | 256 x 192 | 1/4 | 74.4 | 78.9 | 
+| HRNet | HRNet-W32 | 29M | 8G | 384 x 288 | 1/4 | 75.8 | 81.0 | 
+| HRNet | HRNet-w48 | 64M | 16G | 256 x 192 | 1/4 | 75.1 | 80.4 | 
+| HRNet | HRNet-w48 | 64M | 16G | 384 x 288 | 1/4 | 76.3 | 81.2 | 
+| VIRPose-B | ViT-B | 86M | 17G | 256 x 192 | 1/16 | 75.8 | 81.1 | 
+| MobileViTPose-XXS | MobileViT-XXS | 4M | 2G | 256 x 192 | 1/4 | 61.7 | 67.9 | 
+| MobileViTPose-S | MobileViT-S | 9M | 3G | 256 x 192 | 1/4 | 69.4 | 74.9 | 
+
+
+
