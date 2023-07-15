@@ -22,6 +22,16 @@ Transformer-based models, which have recently shown strength in the field of nat
 | MobileViTPose-XXS | MobileViT-XXS | 4M | 2G | 256 x 192 | 1/4 | 61.7 | 67.9 | 
 | MobileViTPose-S | MobileViT-S | 9M | 3G | 256 x 192 | 1/4 | 69.4 | 74.9 | 
 
+### Transfer Learning Result
+
+| Model | Pretrain |AP | AP(50) | AP(75) | AR | AR(50) | AR(75) |
+| :----------------- | :------: | :-----------: | :------: | :-----------: | :------: |:------: | :------: |
+| MobileViTPose-XXS | None | 60.2 | 84.8 | 66.7 | 66.5 | 89.4 | 72.7 | 
+| MobileViTPose-S | None | 63.9 | 86.2 | 70.8 | 69.9 | 1/4 | 90.4 | 76.3 | 
+| MobileViTPose-XXS | ImageNet-1K | 61.7 | 86.1 | 69.0 | 67.9 | 90.5 | 74.6 | 
+| MobileViTPose-S | ImageNet-1K | 69.4 | 88.8 | 77.0 | 74.9 | 1/4 | 92.8 | 82.0 | 
+
+
 ## Enviroment
 NVIDIA Geforce RTX 3060
 
