@@ -98,7 +98,7 @@ It is recommended to symlink the dataset root to `$LITE_HRNET/data`.
 If your folder structure is different, you may need to change the corresponding paths in config files.
 
 **For COCO data**, please download from [COCO download](http://cocodataset.org/#download), 2017 Train/Val is needed for COCO keypoints training and validation. [HRNet-Human-Pose-Estimation](https://github.com/HRNet/HRNet-Human-Pose-Estimation) provides person detection result of COCO val2017 to reproduce our multi-person pose estimation results. 
-Download and extract them under `$LITE_HRNET/data`, and make them look like this:
+Download and extract them under `MobileViTPose/data`, and make them look like this:
 
 ```
 mobilevitpose
