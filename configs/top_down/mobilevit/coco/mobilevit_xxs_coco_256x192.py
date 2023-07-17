@@ -44,7 +44,7 @@ model = dict(
         transformer_depth = [2, 4, 3]
     ),
     keypoint_head=dict(
-        type='TopdownHeatmapSimpleHead',
+        type='bilinear_interpolation',
         in_channels= 320,
         #num_deconv_layers=2,
         #num_deconv_filters=(256, 256),
